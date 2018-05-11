@@ -5,6 +5,8 @@
 <body>
 <h1>Hi! {{user_name}}</h1>
 <h2>Here is your information</h2>
-<p>{{information}}</p>
+{% for info in information %}
+<p>{{info.user_information}}</p>
+{% endfor %}
 </body>
 </html>

