@@ -8,12 +8,9 @@ import json
 def login():
 	form = LoginForm()
 	if form.validate_on_submit():
-		sql_query = "select user_information from user_profile where user_name='"+form.username.data+"'" + "and password='" + form.password.data+"'";
 		try:
-			result = json.loads(query(connect(),sql_query))
+			result = json.loads(query(connect(),form.username.data,form.password.data))
 			print(result)
-			print(type(result))
-			print(len(result))
 			return render_template('result.html',user_name = form.username.data,information=result)
 		except:
 			flash("Invalid username/password")
