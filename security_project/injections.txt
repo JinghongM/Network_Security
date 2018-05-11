@@ -1,0 +1,5 @@
+username: 111444 or 1=1; --+
+password: ANY WORDS
+
+username: ANYWORDS;drop table ANY_TABLE if exists; --+
+password: ANY WORDS

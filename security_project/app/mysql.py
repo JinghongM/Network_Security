@@ -7,7 +7,9 @@ def connect():
 def query(cur,sql_query):
 	print(sql_query)
 	num = cur.execute(sql_query)
-	if(num == 0):
+	print(num)
+	print(type(num))
+	if num == 0:
 		raise Exception('No value selected')
 	else:
 		data=cur.fetchall()
