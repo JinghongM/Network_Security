@@ -2,7 +2,7 @@ from flask_mysqldb import MySQLdb
 import json
 import os
 def connect():
-	conn = MySQLdb.connect(host="localhost",user="root",passwd="Jason19940705",db="security_test")
+	conn = MySQLdb.connect(host="localhost",user="root",passwd="root",db="security_test")
 	cur = conn.cursor()
 	return cur
 def query(cur,username,password):
