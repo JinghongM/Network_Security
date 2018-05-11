@@ -1,6 +1,5 @@
 sudo apt-get update
 sudo apt-get install mysql-server
-git clone https://github.com/JinghongM/Network_Security.git
 cd Network_Security
 mysql -u root -p < ./database.sql
 
